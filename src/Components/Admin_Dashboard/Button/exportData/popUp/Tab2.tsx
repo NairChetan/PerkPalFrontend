@@ -56,7 +56,7 @@ const Tab2 = () => {
 
       try {
         const response = await axios.get(
-          "http://localhost:8080/api/v1/employee/api/v1/employees/by-points-full-details",
+          "https://perkpalbackend.onrender.com/api/v1/employee/api/v1/employees/by-points-full-details",
           {
             params: {
               initialDate: formattedStartDate,

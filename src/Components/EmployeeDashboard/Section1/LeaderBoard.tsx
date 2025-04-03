@@ -31,7 +31,7 @@ const Leaderboard: React.FC = () => {
 
   useEffect(() => {
     // Fetch leaderboard data from API
-    axios.get('http://localhost:8080/api/v1/employee/leaderboard')
+    axios.get('https://perkpalbackend.onrender.com/api/v1/employee/leaderboard')
       .then(response => {
         // Check the structure here
         console.log('API Response:', response.data);

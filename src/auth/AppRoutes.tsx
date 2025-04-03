@@ -35,7 +35,7 @@ const AppRoutes: React.FC = () => {
         try {
           // Call the API endpoint for authentication
           const response = await axios.post(
-            "http://localhost:8080/api/v1/auth/login",
+            "https://perkpalbackend.onrender.com/api/v1/auth/login",
             {
               email: activeAccount.username, // Pass email in request body for POST
             }

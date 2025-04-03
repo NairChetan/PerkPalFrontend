@@ -37,7 +37,7 @@ const KnowYourCategory = () => {
   useEffect(() => {
     // Fetch data from the API
     axios
-      .get("http://localhost:8080/api/v1/category")
+      .get("https://perkpalbackend.onrender.com/api/v1/category")
       .then((response) => {
         setCategories(response.data.data); // Set the categories from the response
       })
