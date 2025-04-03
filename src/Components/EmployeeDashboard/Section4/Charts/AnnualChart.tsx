@@ -56,7 +56,7 @@ const AnnualChart = () => {
 
       try {
         const response = await fetch(
-          `http://localhost:8080/api/v1/employee/employee/${empid}/points/last-four-years`
+          `https://perkpalbackend.onrender.com/api/v1/employee/employee/${empid}/points/last-four-years`
         );
         const data = await response.json();
 
